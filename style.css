@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.cs-wrapper{overflow: hidden;}
+.cs-themeform{
+  max-width: 500px;
+  margin: 2% auto;
+  border-radius: 20px;
+  border: 2px solid #000;
+  padding: 20px;
+}
+.form-group{
+  width: 100%;
+  float: left;
+  margin: 0 0 10px;
+}
+.cs-themeform label{
+  width:20%;
+  float: left;
+}
+.cs-themeform input{
+  width: 80%;
+  float: right;
+  position: relative;
+}
+.cs-male,.cs-female{
+  width: 6%!important;
+  margin: 5px;
+  float: left !important;
+}
+select{border: 1px solid #ced4da;}
+.cs-gender span{
+  width: 10%;
+  float: left;
+}
+.cs-btn{
+  width: 33.33%;
+  float: left;
+}
+.cstable{
+  width: 500px;
+  margin: 0 auto;
+}
+.displaynone{
+  display: none;
+}
+.validation-error{
+  width: 80% !important;
+  float: left !important;
+  color: red;
+}
